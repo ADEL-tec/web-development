@@ -1,0 +1,53 @@
+TO-DO:
+
+Our client is working on a project. his project is to create a programming
+language from scratch for his students.
+
+Build a compiler application that can detect s simple lexical analyses
+and brief syntax analyses for our little language for our client.
+
+COMPILER RULES (LEXICAL):
+
+- detect ( integer, float, chars, boolean, long ) as primitive data type
+- detect ( String, Array ,Symbol ,Object ,Heap ,Tree ) as structured data type
+- detect ( identifiers, all requirement are applied ( can't have space, can't start with a number ....) )
+- detect ( operators, ||, && , + , * , = , - , % , ** , ! , / , and comparison operators loose and strict
+- detect reserved keywords:
+	- if , else , break , switch , skip , and , or , in , next , for , while , do , until , default , goto
+
+COMPILER RULES (SYNTAX):
+
+- detect a so simple variable declaration [ eg: integer number; ]
+- detect so simple variable definition [ eg: integer number = 20; ]
+- detect so simple if statement condition [ eg: if(true){codesomething} ]
+* otherwise it flags an error
+
+SYNTAX RULES DOESN'T CONTAIN SYMANTIC ON TOKENS:
+
+this means that our compiler is able only to recognize the syntax of a written
+statement but doesn't recognize any other things about tokens.
+
+in the real compiler: the compiler verifies the syntax of a written statement
+and the semantics of each token for example this will flag an error for the c
+compiler:
+
+	int number = "something but not a number";
+	even if the statement is correct: <data type> <id> <=> <value> <;>
+	the semantics of tokens are not because a number cannot hold a string
+
+in our case, this is fine because we test only this:
+everything in dark blue is optional can appears and cannot.
+
+	declaration: <data type> <identifier><;>
+	definition : <data type> <identifier> <=> <value> <;>
+	condition : <if><(condition)><{....}><else><{.....}>
+
+WORK BASED ON:
+
+- HTML
+	* HTML basics, HTML Semantics, HTML elements attribute, HTML grouping
+	  elements spans, divs, HTML buttons .....
+- CSS
+	* fonts, text attributes, colors, and background-colors ....
+- JAVASCRIPT
+	* All what's being covered so far, and i mean it
