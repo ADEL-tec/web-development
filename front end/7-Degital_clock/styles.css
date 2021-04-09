@@ -1,0 +1,36 @@
+@font-face {
+  font-family: degital-font;
+  src: url(./DS-DIGIB.TTF);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: rgb(16, 15, 24);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock {
+  width: 700px;
+  box-shadow: inset 0px 0px 10px 5px rgba(0, 0, 0, 0.329);
+  background-color: rgb(44, 42, 54);
+  color: rgb(255, 0, 0);
+  text-shadow: 1px 1px 2px red, 0 0 1em red, 0 0 0.2em red;
+  text-align: center;
+  font-size: 10em;
+  font-family: degital-font;
+  padding: 15px 20px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.clock span {
+  width: 30%;
+}
