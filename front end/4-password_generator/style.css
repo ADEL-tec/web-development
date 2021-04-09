@@ -1,0 +1,175 @@
+@font-face {
+  font-family: font-normal;
+  src: url(./font/BarlowCondensed-Regular.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: font-bold;
+  src: url(./font/BarlowCondensed-Bold.ttf);
+  font-weight: bold;
+}
+
+body {
+  font-family: font-normal;
+  background-color: #120d1c;
+  color: #ddd5ec;
+}
+
+main {
+  width: 400px;
+  margin: 100px auto;
+  padding: 20px 20px;
+  background-color: #241a38;
+  box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-family: font-bold;
+  text-align: center;
+}
+
+input {
+  background-color: #1b132a;
+  border-style: none;
+  outline: none;
+  color: #ddd5ec;
+}
+
+div {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 18px;
+  display: inline-block;
+}
+
+.options input {
+  position: absolute;
+  right: 0px;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  width: 1.6em;
+  height: 1.6em;
+
+  background-color: #ddd5ec;
+
+  border-radius: 2px;
+  margin-right: 5px;
+
+  /* centered the check symbole "✔" */
+  vertical-align: middle;
+  text-align: center;
+
+  color: #ddd5ec;
+}
+input[type="checkbox"]::before {
+  content: "✔";
+  font-size: 1.2em;
+  right: -1px;
+  top: -0.3em;
+  visibility: hidden;
+}
+
+input[type="checkbox"]:checked {
+  border: 1px solid #ddd5ec;
+  background-color: #1b132a;
+}
+
+input[type="checkbox"]:checked::before {
+  /* Use `visibility` instead of `display` to avoid recalculating layout */
+  visibility: visible;
+}
+
+button {
+  width: 100%;
+  height: 40px;
+  outline: none;
+  border-style: none;
+  font-size: 18px;
+  font-family: font-bold;
+  letter-spacing: 1px;
+  background-color: #3d344d;
+  color: #ddd5ec;
+  transition: all 0.2s ease-out;
+}
+
+button:hover {
+  box-shadow: 0px 0px 5px 10px #1b132a;
+  background: #1b132a;
+  font-size: 24px;
+}
+
+#input-password {
+  width: 100%;
+  text-align: center;
+}
+
+#input-length {
+  width: 100%;
+}
+
+#password {
+  width: calc(100% - 20px);
+  height: 40px;
+  padding: 0 0 0 20px;
+  font-size: 20px;
+  font-family: font-normal;
+  background-color: rgb(7, 6, 8);
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+#password::selection {
+  /* hide default selection */
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+}
+
+#length {
+  width: 60px;
+  box-shadow: inset 2px 2px 2px rgb(7, 6, 8),
+    inset -2px -2px 2px rgba(221, 213, 236, 0.5);
+}
+
+#input-uppercase > label {
+  width: calc(100% - 13px);
+}
+#input-lowercase > label {
+  width: calc(100% - 13px);
+}
+#input-numbers > label {
+  width: calc(100% - 13px);
+}
+#input-symbols > label {
+  width: calc(100% - 13px);
+}
+
+.copie-icon {
+  position: absolute;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  top: 3px;
+  right: 4px;
+  padding: 5px;
+  fill: #ddd5ec;
+  background-color: #3d344d;
+}
+
+.copie-icon:hover {
+  background-color: #827c8d;
+  transition: background-color 0.2s ease-in-out;
+}
