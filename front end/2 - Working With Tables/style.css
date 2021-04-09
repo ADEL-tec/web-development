@@ -1,0 +1,76 @@
+body {
+  font-family: Arial;
+  font-size: 12px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+h1 {
+  color: rgb(73, 67, 64);
+  text-align: center;
+  text-decoration: solid underline 2px;
+  font-family: "Trebuchet MS";
+}
+
+p {
+  margin: 0;
+}
+
+strong {
+  color: slategray;
+  font-weight: bold;
+  font-family: Tahoma;
+}
+
+caption {
+  padding: 8px;
+  caption-side: bottom;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  border: 2px solid rgb(100, 100, 100);
+}
+
+td,
+th {
+  border: 1px solid rgb(100, 100, 100);
+  padding: 2px 5px;
+  text-align: center;
+}
+
+span {
+  padding: 10px 0px;
+  writing-mode: vertical-lr;
+  color: rgb(255, 119, 119);
+}
+
+.semestre {
+  background-color: rgb(152, 240, 240);
+}
+
+.topHeader {
+  background-color: lightseagreen;
+  font-family: "Arial Black";
+}
+
+.code {
+  background-color: rgb(219, 219, 219);
+}
+
+.column3 {
+  display: inline;
+  float: left;
+  width: 33%;
+}
+
+.title {
+  display: inline;
+  float: left;
+  width: 50%;
+}
