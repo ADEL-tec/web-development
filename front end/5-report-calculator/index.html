@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="script.js" type="text/javascript" defer></script>
+    <title>Report Calcilator</title>
+</head>
+<body>
+    <main>
+        <h1 class="title"><span>REPORT</span> CALCULATOR</h1>
+        <section class="container">
+            <div>
+                <label for="username" class="block-line">USERNAME:</label>
+                <input type="text" id="username">
+            </div>
+            <section class="module-custom0">
+                <i class="fas fa-trash-alt i-0" style="display: none"></i>
+                <div>
+                    <label for="module0" class="block-line">MODULE:</label>
+                    <input type="text" id="module0">
+                </div>
+                <div>
+                    <label for="exam0">EXAM:</label>
+                    <input type="number" id="exam0" class="mini" min="0" max="20">
+                </div> 
+                <div>
+                    <label for="td0">TD:</label>
+                    <input type="number" id="td0" class="mini" min="0" max="20">
+                </div>
+                <div>
+                    <label for="tp0">TP:</label>
+                    <input type="number" id="tp0" class="mini" min="0" max="20">
+                </div>
+                <div>
+                    <label for="conf0">CONF:</label>
+                    <input type="number" id="conf0" class="mini" min="1" max="20">
+                </div>
+            </section>
+        </section>
+        <div id="buttons">
+            <button id="perform-calculation"><i class="fas fa-calculator"></i>   PERFORM CALCULATION</button>
+            <button id="add-module"><i class="fas fa-plus-circle"></i>   ADD MODULE</button>
+        </div>
+
+
+        <div class="popup-wrapper">
+            <div class="popup">
+                <div class="popup-close">
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="popup-content">
+                    <h2 id="display-title"></h2>
+                    <p id="display-result"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
