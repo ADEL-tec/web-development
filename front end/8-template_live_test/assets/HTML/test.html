@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style-main.css" type="text/css">
+    <link rel="stylesheet" href="../CSS/test.css">
+    <script src="../JS/data.js" type="text/javascript" defer></script>
+    <script src="../JS/test.js" type="text/javascript" defer></script>
+    <title>The Test</title>
+</head>
+<body>
+    <main>
+
+        <!-- popup for "Read Instruction" -->
+        <div class="popup-wrapper read-instruction-popup">
+            <div class="popup">
+                <div class="popup-close read-instruction-popup-close">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512" class="icon"><!-- Font Awesome Free 5.15.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) -->
+                        <path d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"/>
+                    </svg>
+                </div>
+                <div class="popup-content">
+                    <h1>Instructions</h1>
+                    <ol>
+                        <li>You will have <strong>40 minutes</strong> to complete <strong>40 
+                            questions</strong>. Keep an eye on the clock timer 
+                            located at the top-right of the test window.
+                            The selection will time out in <strong>40 minutes</strong></li>
+                        <li>Eatch question is a multiple-choice question 
+                            (MCQ) with one or more correct options, or single-choice.
+                            In order to select the appropriate option button;</li>
+                        <li>There is no negative marking ande you are 
+                            encouraged to attempt all questions
+                            unanswered, if you so prefer.</li>
+                        <li><strong>Do NOT</strong> use the browser's back/forward 
+                            buttons, shortcut menus (mouse eight-click) 
+                            or the keyboard for navigation.</li>
+                        <li>Use of calculators/mobile phones or any
+                            other electronic gadgets is <strong>NOT</strong> permitted.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <!-- popup for "End Test"  -->
+        <div class="popup-wrapper end-test-popup">
+            <div class="popup">
+                <div class="popup-close end-test-popup-close">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512" class="icon"><!-- Font Awesome Free 5.15.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) -->
+                        <path d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"/>
+                    </svg>
+                </div>
+                <div class="popup-content end-test-popup-content">
+                    <h1>End Test</h1>
+                    <p>Are you sure to want to end the test ?</p>
+                    <button id="no-btn">No</button>
+                    <button id="yes-btn">Yes</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- popup display when user broke the rules of the test  -->
+        <div class="popup-wrapper broke-rules-popup">
+            <div class="popup">
+                <div class="popup-content broke-rules-popup-content">
+                    <h1>Broke the test rules</h1>
+                    <p>You broke one of the test rules!</p>
+                    <button id="ok-broke-rules">No</button>
+                </div>
+            </div>
+        </div>
+
+        <h1>HTML - CSS - JavaScript Skills Test</h1>
+        <a class="read-instruction">(Read Instructions)</a>
+        <a class="end-test">End test</a>
+        <section class="box-content">
+            <div class="top-content">
+                <h2 class="section">Section 1</h2>
+                <div class="bar-time">
+                    <h2 class="remaining-time">00:40:00</h2>
+                    <p>left for this section</p>
+                </div>
+            </div>
+            <div class="middle-content">
+                <p>Question <span>1</span> out of <span>40</span></p>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <!-- Font Awesome Free 5.15.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) -->
+                    <path d="M48 32h352c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48zm140.485 355.515l123.029-123.029c4.686-4.686 4.686-12.284 0-16.971l-123.029-123.03c-7.56-7.56-20.485-2.206-20.485 8.485v246.059c0 10.691 12.926 16.045 20.485 8.486z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <!-- Font Awesome Free 5.15.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) -->
+                    <path d="M400 480H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h352c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48zM259.515 124.485l-123.03 123.03c-4.686 4.686-4.686 12.284 0 16.971l123.029 123.029c7.56 7.56 20.485 2.206 20.485-8.485V132.971c.001-10.691-12.925-16.045-20.484-8.486z"/>
+                </svg>
+                <div class="num-quetion">
+                   <!-- Bubbles buttons -->
+                </div>
+            </div>
+            <div class="bottom-content">
+                <p></p>
+                <form action="">
+                </form>
+            </div>
+            <div class="buttons">
+                <button class="button previous-btn">Previous</button>
+                <button class="button next-btn">Next</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,13 @@
+section a:hover {
+  background-color: rgb(211, 218, 224);
+}
+
+.angle-right {
+  float: right;
+}
+
+.check-circle {
+  margin-right: 10px;
+  float: left;
+  fill: greenyellow;
+}

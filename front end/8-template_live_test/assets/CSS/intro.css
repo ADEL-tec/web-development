@@ -1,0 +1,15 @@
+ol {
+  margin: 10px 20px;
+}
+
+ul li {
+  font-size: 14px;
+  list-style-type: disc;
+  line-height: 24px;
+}
+
+p {
+  float: right;
+  margin: 10px;
+  font-size: 12px;
+}

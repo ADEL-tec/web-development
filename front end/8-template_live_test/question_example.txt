@@ -1,0 +1,241 @@
+HTML => https://www.proprofs.com/quiz-school/story.php?title=html-basics-quiz_1
+HTML / CSS => https://www.proprofs.com/quiz-school/story.php?title=html-css-quiz-2012
+JS => https://www.proprofs.com/quiz-school/topic/javascript
+
+Questions and Answers:
+
+
+1. Who is making the Web standards? => (C)
+	A. Mozilla
+	B. Microsoft
+	C. The World Wide Web Consortium
+
+2. What does HTML stand for? => (A)
+	A. Hyper Text Markup Language
+	B. Home Tool Markup Language
+	C. Hyperlinks and Text Markup Language
+
+3. How many tags are in a regular element? => (A) (There are typically two tags in an element in html. These are “<” and “>”. They define what you are doing.)
+	A. 2
+	B. 1
+	C. 3
+
+4. Choose the correct HTML tag for the largest heading (multiple choice) (A)(B)
+	A. Head
+	B. H1
+	C. H6
+	D. Heading
+
+5. What is the correct HTML tag for inserting a line break? => (E) (The correct answer to this question is E, br/. The most common example of line breaks is in poems. It is used to end one line of poetry and then to begin another. Line breaks force the reader to pause for a moment before reading the next line.) 
+	A. break /
+	B. br /br
+	C. lb /
+	D. br /
+	E. br/
+
+6. Choose the correct HTML tag to make a text bold. => (B)
+	A. bold
+	B. b
+	C. bb
+
+7. Choose the correct HTML tag to make a text italic.=> (A)
+	A. Italic
+	B. I
+	C. It
+
+8. What is the correct HTML for creating a hyperlink? => (B)
+	A. A url="http://www.w3schools.com">W3Schools.com
+	B. A href="http://www.w3schools.com">W3Schools
+	C. A>http://www.w3schools.com
+	D. A name="http://www.w3schools.com">W3Schools.com
+
+9. How can you create an e-mail link? => (D) Href is what allows the browser a link to an item. The next step is to add "mailto:". After adding this, the email address can be added. From there, the subject line can be prefilled and an anchor tag can be added.
+	A. Mail href="xxx@yyy.com"
+	B. Mail>xxx@yyy.com/mail
+	C. A href="xxx@yyy.com"
+	D. A href="mailto:xxx@yyy.com"
+
+10. How can you open a link in a new browser window? => (A)
+	A. A href="url" target="_blank"
+	B. A href="url" new
+	C. A href="url" target="new"
+	D. A href="url" target=_window"
+
+11. How can you make a list that lists the items with numbers? => (A)
+	A. Ol
+	B. Dl
+	C. Ul
+	D. List
+
+12. What is the correct HTML for inserting an image? => (C)
+	A. Img alt="MyImage" image.gif /img
+	B. Image src="image.gif" alt="MyImage"
+	C. Img src="image.gif" alt="MyImage"
+	D. Img href="image.gif" alt="MyImage"
+
+13. How can you make a list that lists the items without bullets or numbers? => (D)
+	A. Ol
+	B. Ul
+	C. Dl
+	D. Lists have to have numbers or bullets
+
+14. What is the name of every homepage on the WWW? => (B)
+	A. Home.html
+	B. Index.html
+	C. Anything you want it to be.html
+	D. The name of your website.html
+
+15. The is doctype mandatory. => (A)
+	A. True
+	B. False
+
+16. What does CSS stand for? => (D)
+	A. Creative Style Sheets
+	B. Colorful Style Sheets
+	C. Computer Style Sheets
+	D. Cascading Style Sheets
+
+17. What is the correct HTML for referring to an external style sheet? => (B)
+	A. Stylesheetmystyle.css/stylesheet /
+	B. Link rel="stylesheet" type="text/css" href="mystyle.css"
+	C. Style src="mystyle.css" /
+
+18. Which is the correct CSS syntax? => (D)
+	A. Body:color=black
+	B. {body;color:black}
+	C. {body:color=black(body}
+	D. Body {color: black}
+
+19. How do you insert a comment in a CSS file? => (B)
+	A. ' this is a comment
+	B. /* this is a comment */
+	C. // this is a comment
+	D. // this is a comment //
+
+20. Which property is used to change the background color? => (B)
+	A. Bgcolor:
+	B. Background-color:
+	C. Color:
+
+21. How do you add a background color for all elements? => (A) 
+	A. H1 {background-color:#FFFFFF}
+	B. H1.all {background-color:#FFFFFF}
+	C. All.h1 {background-color:#FFFFFF}
+
+22. How do you change the text color of an element? => (B)
+	A. Text-color=
+	B. Color:
+	C. Text-color:
+	D. Fgcolor:
+
+23. Which CSS property controls the text size? => (D)
+	A. Font-style
+	B. Text-style
+	C. text-size text-size
+	D. Font-size
+
+24. What is the correct CSS syntax for making all the elements bold? =>(A)
+	A. P {font-weight:bold}
+	B. P style="text-size:bold"
+	C. P {text-size:bold}
+	D. P style="font-size:bold">
+
+25. How do you display hyperlinks without an underline? => (A)
+	A. A {text-decoration:none}
+	B. A {text-decoration:no underline}
+	C. A {decoration:no underline}
+	D. A {underline:none}
+
+26. JavaScript File Has An Extension Of => (B)
+	A. .Java
+	B. .Js
+	C. .javascript
+	D. .xml
+
+27. The Tag is used To Give Heading To The Table => (C)
+	A. Head
+	B. Td
+	C. Th
+	D. Caption
+
+28. Function is Used To Parse a String To Int: => (D)
+	A. Integer.Parse
+	B. Int.Parse
+	C. Parse.Int
+	D. None
+
+29. IsNaN() Evalutes And Argument To Determine if Given Value => (B)
+	A. Is Not a Null
+	B. Is Not a Number
+	C. Is Not a New Object
+	D. None Of The Above
+
+30. Which Of The Dialog Box Display a Message And a Data Entry Field? => (A)
+	A. Alert()
+	B. Prompt()
+	C. Confirm()
+	D. Msg()
+
+31. Event is Used To Check An Empty Text Box. => (D)
+	A. Onclick()
+	B. OnFocus()
+	C. OnBlur()
+	D. None
+
+32. Method Prompt() Contain ........Number of Parameters => (B)
+	A. One
+	B. Two
+	C. Three
+	D. Zero
+
+33. GetMonth() returns The Month as: => (A) (An integer number, between 0 and 11)
+	A. Int
+	B. Float
+	C. Char
+	D. String
+
+34. A Function Associated With An object is Called: => (B)
+	A. Function
+	B. Method
+	C. Link
+	D. None
+
+35. Inside which HTML element do we put the JavaScript? => (C)
+	A. Js
+	B. JavaScript
+	C. Script
+	D. Scripting
+
+36. Is javascript case sensitive ? => (B)
+	A. True
+	B. False
+
+
+37. In script tag what are the attribute we can use ?=> (C)
+	A. Case
+	B. Language
+	C. Type
+	D. Section
+	E. Tract
+
+38. How can we declare variable in javascript => (B)
+	A. Datatype
+	B. Var
+	C. Int
+	D. Float
+
+39. .push () is which type of function: => (C)
+	A. Date and time
+	B. String
+	C. Array
+	D. Maths / numeric
+
+40. Script tag used in which part: => (D)
+	A. Only head tag
+	B. Only body tag
+	C. Head tag and body tag both
+	D. None of above
+
+
+
+
